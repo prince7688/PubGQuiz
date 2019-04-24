@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.example.sonu.simplequiz.com.game.sonu.simplequiz.StartActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/play"/>
+
+
+    <LinearLayout
+        android:background="@drawable/buttonshape2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/teamHeading"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Team Id" />
+
+        <EditText
+            android:id="@+id/edid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:shadowColor="@color/colorTitle" />
+
+        <TextView
+            style="@style/teamHeading"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Team Name" />
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:inputType="text"
+            android:layout_weight="1"/>
+
+        <TextView
+            style="@style/teamHeading"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Contact Number" />
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="phone" />
+
+        <TextView
+            style="@style/teamHeading"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/ed3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textPassword" />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        style="@style/teamHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:background="@drawable/buttonshape2"
+        android:text="Join the Battle"
+        android:textColor="@color/colorTitleText" />
+
+
+</LinearLayout>

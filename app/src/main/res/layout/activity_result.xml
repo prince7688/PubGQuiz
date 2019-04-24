@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#758AA2"
+    tools:context="com.example.sonu.simplequiz.ResultActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/team_name"
+        android:textStyle="bold"
+        android:text="Team name"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/team_name"
+        android:layout_margin="10dp"
+        android:padding="20dp">
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Time (seconds) : "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="time "
+                android:id="@+id/time"
+                android:gravity="right"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="normal"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Total Questions : "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/total_q"
+                android:text="q.no "
+                android:gravity="right"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="normal"
+                />
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Correct : "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="correct "
+                android:id="@+id/correct_q"
+                android:gravity="right"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="normal"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Wrong : "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="wrong "
+                android:id="@+id/wrong_q"
+                android:gravity="right"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="normal"
+                />
+
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Total Questions : "-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_below="@+id/txt4"-->
+        <!--android:layout_alignEnd="@+id/textView7" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignStart="@+id/textView"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:text="Correct :" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="68dp"-->
+        <!--android:text="Incorrect :"-->
+        <!--android:layout_below="@+id/textView2"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_alignStart="@+id/textView2" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textStyle="bold"-->
+        <!--android:text="TextView"-->
+        <!--android:layout_alignBaseline="@+id/textView"-->
+        <!--android:layout_alignBottom="@+id/textView"-->
+        <!--android:layout_toEndOf="@+id/textView7"-->
+        <!--android:layout_marginStart="28dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_alignEnd="@+id/textView4"-->
+        <!--android:layout_alignTop="@+id/textView2"-->
+        <!--android:text="TextView" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView6"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_alignBottom="@+id/textView3"-->
+        <!--android:layout_alignEnd="@+id/textView5"-->
+        <!--android:text="TextView" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="TextView"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_below="@+id/txt7"-->
+        <!--android:layout_toEndOf="@+id/textView" />-->
+
+    <!---->
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt7"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="TextView"-->
+        <!--android:textSize="30dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView7"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="TextView"-->
+        <!--android:layout_alignBaseline="@+id/txt4"-->
+        <!--android:layout_alignBottom="@+id/txt4"-->
+        <!--android:layout_alignStart="@+id/txt7" />-->
+
+</RelativeLayout>
